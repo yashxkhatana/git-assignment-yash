@@ -1,0 +1,30 @@
+:root {
+  --bg: #f7f6f2;
+  --ink: #1d1d1f;
+  --accent: #2f5bea;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-header a {
+  color: var(--accent);
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 64px 32px;
+}
