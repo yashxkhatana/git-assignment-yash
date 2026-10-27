@@ -28,3 +28,16 @@ body {
 .hero {
   padding: 64px 32px;
 }
+
+/* Dark theme follows the system setting */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121316;
+    --ink: #ececf1;
+    --accent: #7aa2ff;
+  }
+
+  .site-header {
+    border-bottom-color: #2a2c33;
+  }
+}
